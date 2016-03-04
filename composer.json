@@ -1,12 +1,17 @@
 {
   "name": "koprivajakub/blank-wp-theme",
+  "type": "wp-theme",
   "description": "Blank theme with all requirements for custom theme styling.",
+  "homepage": "https://github.com/koprivajakub/blank-wp-theme",
   "license": "LGPL",
   "authors": [
     {
       "name": "Jakub Kopriva",
-      "email": "kopriva.jakub@gmail.com"
+      "email": "kopriva.jakub@gmail.com",
+      "homepage": "https://github.com/koprivajakub"
     }
   ],
-  "require": {}
+  "require": {
+    "php": ">=5.4.0"
+  }
 }
