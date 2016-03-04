@@ -1,0 +1,12 @@
+{
+  "name": "koprivajakub/blank-wp-theme",
+  "description": "Blank theme with all requirements for custom theme styling.",
+  "license": "LGPL",
+  "authors": [
+    {
+      "name": "Jakub Kopriva",
+      "email": "kopriva.jakub@gmail.com"
+    }
+  ],
+  "require": {}
+}
