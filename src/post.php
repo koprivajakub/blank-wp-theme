@@ -11,11 +11,11 @@
 			echo '</h2>';
 		} ?> <?php edit_post_link(); ?>
 		<?php if (!is_search()) {
-			get_template_part('entry', 'meta');
+			get_template_part('post', 'meta');
 		} ?>
 	</header>
-	<?php get_template_part('entry', (is_archive() || is_search() ? 'summary' : 'content')); ?>
+	<?php get_template_part('post', (is_archive() || is_search() ? 'summary' : 'content')); ?>
 	<?php if (!is_search()) {
-		get_template_part('entry-footer');
+		get_template_part('post', 'footer');
 	} ?>
 </article>

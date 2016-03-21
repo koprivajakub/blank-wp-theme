@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lonely Vertex Blog v1.0\n"
+"POT-Creation-Date: 2016-03-16 20:31+0100\n"
+"PO-Revision-Date: 2016-03-16 20:31+0100\n"
+"Last-Translator: Jakub Kopřiva <kopriva.jakub@gmail.com>\n"
+"Language-Team: Lonely Vertex s.r.o. <admin@blonelyvertex.com>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_n_noop:1,2;_nx:1,2;_nx_noop:1,2;"
+"esc_attr_x;_x:1,2c;esc_attr_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+
+#: 404.php:7
+msgid "Not Found"
+msgstr "Nenalezeno"
+
+#: 404.php:8
+msgid "This is somewhat embarrassing, isn’t it?"
+msgstr "Něco tady chybí co?"
+
+#: 404.php:10
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Požadovaná stránka nebyla nalezena. Zkuste vyhledávání."
+
+#: attachment.php:11 image.php:11
+#, php-format
+msgid "Return to %s"
+msgstr "Vrátit na %s"
+
+#: author.php:8
+msgid "Author Archives"
+msgstr "Archív autorů"
+
+#: category.php:7
+msgid "Category Archives: "
+msgstr "Archív kategorií: "
+
+#: comments.php:27
+msgid "Trackback"
+msgid_plural "Trackbacks"
+msgstr[0] "Trackback"
+msgstr[1] "Trackbacky"
+msgstr[2] "Trackbacků"
+
+#: config/widgets.php:7
+msgid "Sidebar Widget Area"
+msgstr "Sidebar Widget plocha"
+
+#: date.php:9
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Dení archív: %s"
+
+#: date.php:11
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Měsíční archív: %s"
+
+#: date.php:13
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Roční archív: %s"
+
+#: date.php:15
+msgid "Archives"
+msgstr "Archív"
+
+#: footer.php:2
+#, php-format
+msgid "%1$s %2$s %3$s. All Rights Reserved."
+msgstr "%1$s %2$s %3$s. Všechna práva vyhrazena."
+
+#: footer.php:7
+#, php-format
+msgid "Theme By: %1$s"
+msgstr "Šablona od: %1$s"
+
+#: functions.php:15
+msgid "Main Menu"
+msgstr "Hlavní menu"
+
+#: nav-below.php:5
+#, php-format
+msgid "%s older"
+msgstr "%s starší"
+
+#: nav-below.php:8
+#, php-format
+msgid "newer %s"
+msgstr "novější %s"
+
+#: post-footer.php:2
+msgid "Categories: "
+msgstr "Kategorie: "
+
+#: post-footer.php:6
+msgid "Comments"
+msgstr "Komentáře"
+
+#: search.php:11
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Výsledky vyhledávání pro: %s"
+
+#: search.php:22
+msgid "Nothing Found"
+msgstr "Nic nebylo nalezeno"
+
+#: search.php:25
+msgid "Sorry, nothing matched your search. Please try again."
+msgstr ""
+"Omlouváme se, pro toto vyhledávání nebylo nic nalezeno. Zkuste to prosím "
+"znovu."
+
+#: searchform.php:3 searchform.php:7
+msgctxt "label"
+msgid "Search for:"
+msgstr "Hledat:"
+
+#: searchform.php:5
+msgctxt "placeholder"
+msgid "Search …"
+msgstr "Hledaný výraz …"
+
+#: searchform.php:10
+msgctxt "submit button"
+msgid "Search"
+msgstr "Hledat !"
+
+#: tag.php:9
+msgid "Tag Archives: "
+msgstr "Archív tagů: "

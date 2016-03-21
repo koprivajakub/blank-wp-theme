@@ -1,6 +1,6 @@
 <?php
 /**
- * Attachment template. Used when viewing a single attachment.
+ * Image attachment template. Used when viewing a single image attachment. If not present, attachment.php will be used.
  */
 ?>
 <?php get_header(); ?>
@@ -19,11 +19,15 @@
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<?php previous_image_link(false, '&larr;'); ?>
 		<?php next_image_link(false, '&rarr;'); ?>
+		<? $att_image = wp_get_attachment_image_src(
+			$post->ID,
+			"large"
+		); ?>
 		<a href="<?php echo wp_get_attachment_url($post->ID); ?>"
-		   title="<?php echo esc_html(get_the_title($post->ID)); ?>"
-		   rel="attachment">
-			<?php echo basename($post->guid); ?>
-		</a>
+		   title="<?php the_title(); ?>" rel="attachment"><img
+				src="<?php echo $att_image[0]; ?>" width="<?php echo $att_image[1]; ?>"
+				height="<?php echo $att_image[2]; ?>" class="attachment-medium"
+				alt="<?php $post->post_excerpt; ?>"/></a>
 		<?php if (!empty($post->post_excerpt)) {
 			the_excerpt();
 		} ?>

@@ -2,10 +2,10 @@
 if ($wp_query->max_num_pages > 1) { ?>
 	<nav id="nav-below" class="navigation" role="navigation">
 		<div class="nav-previous"><?php next_posts_link(
-				sprintf(__('%s older', 'blankslate'), '<span class="meta-nav">&larr;</span>')
+				sprintf(__('%s older', 'blank_wp_theme'), '<span class="meta-nav">&larr;</span>')
 			) ?></div>
 		<div class="nav-next"><?php previous_posts_link(
-				sprintf(__('newer %s', 'blankslate'), '<span class="meta-nav">&rarr;</span>')
+				sprintf(__('newer %s', 'blank_wp_theme'), '<span class="meta-nav">&rarr;</span>')
 			) ?></div>
 	</nav>
 <?php } ?>
